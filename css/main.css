@@ -1,3 +1,6 @@
+
+/* || General styles */
+
 html {
     font-size: 62.5%;
 }
@@ -6,6 +9,106 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+
+/* … */
+
+/* || Colors */
+.text-light { 
+    color: #f8f8f8;
+}
+
+.text-dark { 
+    color: #1B1B1B;
+}
+
+/* || Typography */
+ h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+ }
+
+ h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height, or 120% */
+ }
+ 
+ h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+ }
+ 
+ h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+ }
+ 
+ h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+ }
+ 
+ h6 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+ }
+ 
+ body { 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+
+ body.large {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+ }
+ body.small {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+ }
+ body.strong {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+ }
+
+
+/* … */
+
+/* || Header and Main Navigation */
+
+/* … */
+
+
 
 .logo-nav-bar { 
     width: 237px;
@@ -18,7 +121,6 @@ h1.hero-text {
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
-
     color: #1B1B1B;
 }
 
@@ -32,6 +134,16 @@ h6.hero-text {
     color: #1B1B1B;
 }
 
+
+/* Font Styling */
+
+.semibold { 
+
+}
+
+
+
+
 main.hero-section {
     /* width: auto;
     height: auto; */
@@ -44,6 +156,11 @@ main.hero-section {
     flex: none;
     order: 0;
     flex-grow: 0; */
+}
+
+.hero-section-floor {
+    height: 88px;
+    background: rgba(143, 84, 54, 0.5);
 }
 
 .wrapper { 
@@ -82,7 +199,33 @@ main {
     margin-top: 120px; 
 }
 
+
+/* Hero Section Styling */
+
 .left-col {
     max-width: 643px;
     margin-left: 70px; 
+    margin-top: 120px; 
+}
+
+.right-col { 
+    margin-top: 201px;
+    margin-left: 70px;
+}
+
+.primary-cta-client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 8px;
+    text-decoration: none;
+
+    width: 265px;
+    height: 61px;
+
+    /* secondary/40 */
+
+    background: #638A84;
+    border-radius: 20px;
 }
