@@ -12,7 +12,7 @@ body {
     height: 96px;
 }
 
-h1 {
+h1.hero-text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -21,6 +21,31 @@ h1 {
 
     color: #1B1B1B;
 }
+
+h6.hero-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #1B1B1B;
+}
+
+main.hero-section {
+    /* width: auto;
+    height: auto; */
+    height: 573px;
+    background: #FFF7F3;
+    margin: 0;
+
+    /* Inside auto layout */
+/* 
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
 .wrapper { 
     margin: 0 auto; 
 }
